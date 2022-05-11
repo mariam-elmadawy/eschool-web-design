@@ -1,0 +1,204 @@
+:root {
+    --main-padding: 100px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    color: #fff;
+    margin-top: 100px;
+}
+
+
+/* start navbar */
+
+nav {
+    height: 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 18px;
+}
+
+nav .nav-item {
+    padding-top: 15px;
+}
+
+
+/* end navbar */
+
+
+/* start header */
+
+.head {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.head h2 {
+    color: var(--bs-blue);
+    padding-top: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.head p {
+    padding-top: 15px;
+    color: #eee;
+    line-height: 2;
+}
+
+
+/* end header */
+
+
+/* start content */
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content h3 {
+    padding-bottom: 25px;
+    letter-spacing: 1.8px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content h4 {
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content p {
+    color: #aaa;
+    line-height: 1.8;
+    padding: 10px;
+}
+
+.content button {
+    color: white;
+}
+
+
+/* end content */
+
+
+/* start features */
+
+.features {
+    padding-top: 50px;
+}
+
+.features h2 {
+    color: var(--bs-blue);
+    text-transform: uppercase;
+}
+
+.features p {
+    font-size: 22px;
+}
+
+.features ul li {
+    color: #777;
+    font-size: 20px
+}
+
+.features .image {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* end features */
+
+
+/* start paymnet */
+
+.payment {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.payment h3 {
+    padding: 40px 0;
+    letter-spacing: 1.8px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.payment .box {
+    border: 1px solid #d1dddf;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.payment .box h2 {
+    color: white;
+    padding: 5px 0;
+}
+
+.payment .box h1 {
+    color: var(--bs-blue);
+    padding: 10px;
+}
+
+.payment .box h1 span {
+    font-size: 16px;
+    color: #eee;
+}
+
+.payment .box ul li {
+    padding: 10px 0;
+    color: #eee;
+}
+
+.payment .box button {
+    margin: 20px;
+}
+
+
+/* end paymnet */
+
+
+/* start register */
+
+.register {
+    padding-bottom: 50px;
+}
+
+.register .image {
+    display: flex;
+    justify-content: center;
+}
+
+.register h3 {
+    padding-bottom: 20px;
+    letter-spacing: 1.8px;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.register .form-label {
+    color: #eee;
+}
+
+
+/* end register */
+
+
+/* start footer */
+
+footer {
+    color: #eee;
+}
